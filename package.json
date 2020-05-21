@@ -1,0 +1,11 @@
+{
+  "name": "git-notes",
+  "version": "1.0.0",
+  "description": "Simplified solution for managing gists",
+  "scripts": {
+    "startBackend":"cd Back End && npm install && npm run start",
+    "startFrontend":"cd Front End && npm install && npm run start"
+  },
+  "author": "NabilShahid",
+  "license": "ISC"
+}

@@ -1,0 +1,57 @@
+@import './constants/style-vals.css';
+@import '../node_modules/codemirror/lib/codemirror.css';
+@import '../node_modules/codemirror/theme/material.css';
+@import '../node_modules/react-confirm-alert/src/react-confirm-alert.css';
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.blue-header {
+  color: var(--header-blue-color);
+}
+
+.material-box-shadow {
+  box-shadow: var(--material-box-shadow);
+}
+.material-box-shadow-1 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.transparent-button{
+  background: transparent;
+  border:0;
+}
+.react-confirm-alert-button-group button{
+  background-color: var(--main-color);
+}
+.main-theme-button{
+  border: 0;
+  padding: 7px 20px;
+  background: var(--main-color);
+  color: white;
+  box-shadow: var(--material-box-shadow);
+  border-radius: 2px;
+  cursor: pointer;
+}

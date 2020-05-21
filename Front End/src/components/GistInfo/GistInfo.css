@@ -1,0 +1,22 @@
+.gist-info-container {
+  display: flex;
+}
+.gist-info-subtitle {
+  color: #c1c1c1;
+  text-align: left;
+  font-size: 13px;
+  margin-top: -4px;
+}
+.gist-info-description {
+  color: #c1c1c1;
+  text-align: left;
+  font-size: 11px;
+  margin-top: -3px;
+}
+.gist-info-header {
+  margin-top: -1px;
+  font-size: 14px;
+  /* max-width: 255px;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}

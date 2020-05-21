@@ -1,0 +1,33 @@
+.search-bar {
+  background: transparent;
+  background-image: url('../../assets/icons/searchlight.svg');
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 9px;
+  color: white;
+  width: 80%;
+  transition: 0.3s;
+  background-repeat: no-repeat;
+  background-position: right 7px bottom 7px;
+  background-position-x: right 6px;
+  background-size: 20px;
+}
+.search-bar:focus {
+  width: 90%;
+  transition: 0.3s;
+}
+.search-bar::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e5e5e5;
+  opacity: 1; /* Firefox */
+}
+
+.search-bar:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #e5e5e5;
+}
+
+.search-bar::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #e5e5e5;
+}

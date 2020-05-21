@@ -1,0 +1,26 @@
+.profile-page-container {
+  display: flex;
+  margin-top: 60px;
+}
+.profile-page-info-container {
+  flex: 0 40%;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+}
+
+.profile-page-login-name {
+  margin: 27px 0;
+  font-size: 22px;
+}
+.profile-page-github-profile-button {
+  color: var(--header-blue-color);
+  background: transparent;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 7px 41px;
+  font-size: 15px;
+}
+.profile-page-gists-container{
+    flex: 0 0 60%;
+    padding-left: 45px;
+}

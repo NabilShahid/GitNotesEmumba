@@ -1,0 +1,7 @@
+.gist-card {
+  width: 100%;
+  /* width: 370px; */
+  min-width: 300px;
+  padding: 7px 14px;
+  border-radius: 5px;
+}

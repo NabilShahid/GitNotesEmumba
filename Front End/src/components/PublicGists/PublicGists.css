@@ -1,0 +1,24 @@
+.public-gists-main-container {
+  text-align: left;
+}
+
+.public-gists-right-seperator {
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  margin-right: 8px;
+  padding-right: 8px;
+  padding: 4px 8px 2px 0;
+}
+
+.public-gists-pagination{
+  display: flex;
+  margin: 45px 0;
+}
+.public-gists-pagination-next{
+  flex-basis: 50%;
+  text-align: right;
+}
+.public-gists-pagination-control{
+  flex-basis: 50%;
+  text-align: right;
+}

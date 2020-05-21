@@ -1,0 +1,8 @@
+.gist-page-action-panel{
+    display: flex;
+    margin: 20px 0;
+}
+.gist-page-actions{
+    text-align: right;
+    flex-basis: 50%;
+}

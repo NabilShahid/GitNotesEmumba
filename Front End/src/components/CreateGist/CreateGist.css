@@ -1,0 +1,17 @@
+.create-gist-row{
+    display: flex;
+    max-width: 600px;
+    margin: 25px 0;
+}
+.create-gist-label{
+    flex-basis: 30%;
+}
+.create-gist-control-container{
+    flex-basis: 70%;
+}
+.create-gist-control{
+    border-radius: 2px;
+    width: 100%;
+    border: 0;
+    box-shadow: var(--material-box-shadow);
+}

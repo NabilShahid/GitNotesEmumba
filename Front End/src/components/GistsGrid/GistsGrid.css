@@ -1,0 +1,6 @@
+.grid-gist-row{
+    display: flex;
+}
+.grid-gist-cell .gist-file-container{
+    box-shadow: none;
+}

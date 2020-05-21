@@ -1,0 +1,15 @@
+.table-header-row {
+  display: flex;
+  background-color: #def5ec;
+  padding: 13px 0;
+}
+.table-col {
+  flex-basis: 20%;
+  padding-left: 10px;
+  word-break: break-all;
+}
+.table-body-row {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #7cffce;
+}

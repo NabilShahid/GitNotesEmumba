@@ -1,0 +1,40 @@
+.gist-file-container {
+  height: 540px;
+  width: 99%;
+  /* margin-bottom: 170px; */
+  overflow: hidden;
+  margin: 7px;
+}
+
+.code-mirror-custom {
+  flex:1 1 auto;
+  margin-top:0;
+  height:100%;
+  position:relative;
+}
+/* .CodeMirror {
+  min-height: 100%;
+} */
+.CodeMirror {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  }
+.CodeMirror-gutters {
+  border-right: 0;
+  background: white;
+}
+.gist-file-name {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 6px 10px;
+  color: var(--header-blue-color);
+}
+.CodeMirror-scroll{
+  padding: 10px 30px;
+}
+/* .CodeMirror-sizer{
+  min-width: 100px !important;
+} */

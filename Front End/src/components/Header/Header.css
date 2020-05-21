@@ -1,0 +1,14 @@
+.header{
+    background-color: var(--main-color);
+    display: flex;
+    padding: 13px 0px;
+    max-height: 70px;
+}
+.header-emumba-logo{
+    width: 90%;
+}
+/* @media (max-width: 480px) {
+    .header-emumba-logo{
+        width: 70px;
+    }
+  } */
