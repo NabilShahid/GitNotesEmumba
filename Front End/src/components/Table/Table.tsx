@@ -23,7 +23,7 @@ const Table: React.SFC<TableProps> = ({ gists }: TableProps) => {
     <div className="table-container">
       <div className="table-header">
         <div className="table-header-row">
-          <div className="table-col">Name</div>
+          <div className="table-col">Name </div>
           <div className="table-col">Date</div>
           <div className="table-col" style={{ flexBasis: '10%' }}>
             Time
